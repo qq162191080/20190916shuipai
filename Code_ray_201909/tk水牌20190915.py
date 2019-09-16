@@ -1,4 +1,5 @@
 from tkinter import *
+from PIL import *
 
 root = Tk()
 
@@ -23,7 +24,6 @@ closeApp.bind("<ButtonRelease-1>",appClose)
 
 photo = PhotoImage(file="001.png")
 
-photo.zoom(2,3)
 
 
 label_1=Label(root,text="Hello FishC!",height=200,image=photo)
